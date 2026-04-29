@@ -1,0 +1,60 @@
+{
+  "pillars": [
+    {
+      "id": "funding",
+      "name": "Follow the Money",
+      "description": "Funding rounds, investors, valuations, M&A — who's betting on what and why it matters",
+      "angle": "GS analyst lens: read the term sheet between the lines",
+      "examples": ["Figure AI $675M raise", "1X's Series B", "who's backing Apptronik"],
+      "keywords": ["robotics funding", "robotics investment", "robot startup raises", "embodied AI funding", "humanoid robot funding"]
+    },
+    {
+      "id": "hardware",
+      "name": "New Hardware Drops",
+      "description": "New robot models, capability demos, hardware announcements",
+      "angle": "What the demo shows vs. what the engineering actually took",
+      "examples": ["Optimus Gen 2 hands", "Figure 02 cooking video", "Unitree Go2 agility"],
+      "keywords": ["humanoid robot demo", "new robot 2025", "robot capabilities", "Optimus", "Figure AI robot", "Unitree robot"]
+    },
+    {
+      "id": "career",
+      "name": "Breaking Into Robotics",
+      "description": "How to get a job in robotics, what roles exist, what skills matter",
+      "angle": "What companies actually hire for vs. what LinkedIn says",
+      "examples": ["what Boston Dynamics actually hires", "robotics PM vs. robotics engineer", "ML skills for embodied AI"],
+      "keywords": ["robotics career", "robotics job", "how to work in robotics", "robotics engineer salary", "embodied AI jobs"]
+    },
+    {
+      "id": "explainer",
+      "name": "Tech Explainers",
+      "description": "How things actually work — simplified but not dumbed down",
+      "angle": "The thing everyone says but nobody explains",
+      "examples": ["what is embodied AI", "why robot hands are hard", "how diffusion policies work"],
+      "keywords": ["embodied AI explained", "how robots learn", "robot perception", "dexterous manipulation", "sim to real"]
+    },
+    {
+      "id": "implications",
+      "name": "What This Means",
+      "description": "Industry implications — jobs, economy, society, specific sectors",
+      "angle": "The second-order effects that nobody's writing about yet",
+      "examples": ["what humanoid robots mean for manufacturing", "which jobs are actually safe", "why China is winning"],
+      "keywords": ["robots replacing jobs", "automation impact", "manufacturing robots 2025", "China robotics", "robot economy"]
+    },
+    {
+      "id": "founder",
+      "name": "Building in Robotics",
+      "description": "What it's actually like to build a robotics startup — fundraising, hiring, technical challenges",
+      "angle": "Founder perspective: the unglamorous reality behind the demos",
+      "examples": ["why robotics startups take 10 years", "how to pitch a hardware company", "the BOM problem"],
+      "keywords": ["robotics startup", "hardware startup", "building robots", "robotics founder", "deep tech startup"]
+    },
+    {
+      "id": "ai_x_robotics",
+      "name": "AI Meets Physical World",
+      "description": "The convergence of LLMs, foundation models, and robotics",
+      "angle": "Why this moment is different from every previous robotics wave",
+      "examples": ["ChatGPT for robots", "OpenVLA", "why Nvidia is really a robotics company now"],
+      "keywords": ["AI robotics", "foundation model robotics", "physical AI", "robot foundation model", "Nvidia robotics", "OpenAI robotics"]
+    }
+  ]
+}

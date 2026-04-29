@@ -1,0 +1,71 @@
+{
+  "creator": {
+    "name": "Robotics Creator",
+    "background": "Former Goldman Sachs tech analyst, pre-funding robotics founder",
+    "lens": [
+      "Finance & funding (who's backing what, deal structure, valuation signals)",
+      "Technical (can explain embodied AI, sensors, actuators without dumbing it down)",
+      "Operator (building in the space, know the real friction points)"
+    ],
+    "unique_angle": "The intersection of Wall Street money and bleeding-edge robotics — explained by someone who lived both sides"
+  },
+
+  "audience": {
+    "primary": "Career seekers — engineers, PMs, finance people wanting to pivot into or understand robotics",
+    "secondary": "Curious general public — tech-forward people who want to be informed on the biggest tech shift of the decade",
+    "shared_desire": "Feel smart and ahead of the curve, not overwhelmed"
+  },
+
+  "style_references": [
+    {
+      "creator": "Zauey.talks",
+      "platform": "TikTok",
+      "what_to_borrow": "Hook structure, pacing, accessibility — makes complex tech feel exciting not scary, talks to camera like a friend"
+    },
+    {
+      "creator": "Hope",
+      "platform": "RedNote",
+      "what_to_borrow": "Depth without jargon, financial rigor in tech topics, calm confident delivery"
+    }
+  ],
+
+  "voice_rules": [
+    "Short sentences. Punchy. Not academic.",
+    "Concrete: company names, dollar amounts, dates — not vague gestures at 'the industry'",
+    "First person throughout — this is your take, not a Wikipedia summary",
+    "No 'guys', no 'Hey everyone', no 'In today's video'",
+    "Start mid-thought, not with an intro",
+    "Never end with 'follow for more' — end with a question or a provocative statement",
+    "Speak to ONE person in the audience, not a crowd",
+    "Use your GS background and founder lens — that's the differentiator",
+    "Accessible but never condescending — your audience is smart"
+  ],
+
+  "script_format": {
+    "target_duration_seconds": 75,
+    "target_word_count": 180,
+    "structure": {
+      "hook": {
+        "seconds": "0-5",
+        "description": "Bold statement, surprising fact, or provocative question. No preamble. No 'today I want to talk about'. Drop the viewer in.",
+        "examples": [
+          "Figure AI just raised $675 million. That's not a robotics company anymore — that's a bet on a new economy.",
+          "The job you're training for right now? A robot is being trained for it too. Here's what that actually means.",
+          "Everyone's talking about Optimus. Nobody's talking about the supply chain that makes it possible."
+        ]
+      },
+      "context": {
+        "seconds": "5-20",
+        "description": "Why this matters NOW. The news, the event, the trend that makes this timely."
+      },
+      "insight": {
+        "seconds": "20-65",
+        "description": "Your unique angle. What most people miss. The GS lens (follow the money), the founder lens (what's actually hard to build), the technical depth (what's really happening under the hood)."
+      },
+      "close": {
+        "seconds": "65-75",
+        "description": "One question or statement that makes the viewer think. No call to action about following."
+      }
+    }
+  }
+}
