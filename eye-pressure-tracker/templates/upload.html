@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Dad's Eye Pressure</h1>
+<div class="subtitle">Take a photo of the reading</div>
+<div class="card">
+  <form action="{{ url_for('process') }}" method="post" enctype="multipart/form-data">
+    <label for="photo">Photo of the device</label>
+    <input type="file" id="photo" name="photo" accept="image/*" capture="environment" required>
+    <button type="submit">Read the Photo</button>
+  </form>
+</div>
+<a class="btn secondary" href="{{ url_for('history') }}">View Past Readings</a>
+{% endblock %}

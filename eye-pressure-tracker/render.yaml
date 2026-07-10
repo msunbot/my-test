@@ -1,0 +1,24 @@
+services:
+  - type: web
+    name: eye-pressure-tracker
+    runtime: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    disk:
+      name: eye-pressure-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: DB_PATH
+        value: /var/data/readings.db
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GMAIL_ADDRESS
+        sync: false
+      - key: GMAIL_APP_PASSWORD
+        sync: false
+      - key: RECIPIENT_EMAIL
+        value: sunmaggie.wl@gmail.com
+      - key: FLASK_SECRET_KEY
+        generateValue: true

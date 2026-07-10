@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Past Readings</h1>
+<div class="card">
+  {% if readings %}
+  <table>
+    <tr><th>Date</th><th>Time</th><th>Left</th><th>Right</th></tr>
+    {% for r in readings %}
+    <tr>
+      <td>{{ r['date'] }}</td>
+      <td>{{ r['time'] }}</td>
+      <td>{{ r['pressure_left'] or '-' }}</td>
+      <td>{{ r['pressure_right'] or '-' }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% else %}
+  <p>No readings yet.</p>
+  {% endif %}
+</div>
+<a class="btn" href="{{ url_for('download') }}">Download Spreadsheet</a>
+<a class="btn secondary" href="{{ url_for('index') }}">Add a Reading</a>
+{% endblock %}

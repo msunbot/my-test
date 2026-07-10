@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="success-icon">&#9989;</div>
+<h1>Reading Saved</h1>
+{% if email_error %}
+  <div class="subtitle">Saved, but the email could not be sent ({{ email_error }}). You can still download the spreadsheet below.</div>
+{% else %}
+  <div class="subtitle">The updated spreadsheet has been emailed.</div>
+{% endif %}
+<a class="btn" href="{{ url_for('index') }}">Add Another Reading</a>
+<a class="btn secondary" href="{{ url_for('download') }}">Download Spreadsheet</a>
+<a class="btn secondary" href="{{ url_for('history') }}">View Past Readings</a>
+{% endblock %}
